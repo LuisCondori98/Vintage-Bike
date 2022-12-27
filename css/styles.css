@@ -14,7 +14,7 @@ a {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 @media (min-width: 1200px) {
@@ -257,18 +257,44 @@ body {
     font-size: 20px;
     padding: 0;
   }
-  main .container__marcas h2 {
+  main .container__informacion {
     background-color: black;
+  }
+  main .container__informacion h2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     padding: 5px;
     text-align: center;
     color: white;
   }
-  main .container__marcas img {
+  main .container__informacion img {
     height: 195px;
+  }
+  main .container__informacion .txt__info h3 {
+    text-align: center;
+    color: white;
+  }
+  main .container__informacion .txt__info .container__button {
+    background-image: url("../../img/wallpaper1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  main .container__informacion .txt__info .container__button button {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 254, 254);
+    align-self: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-color: rgb(0, 0, 0);
   }
 }
 @media (max-width: 480px) {
+  main {
+    background-color: white;
+  }
   main .banner {
     text-align: center;
     padding: 18px;

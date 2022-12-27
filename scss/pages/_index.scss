@@ -41,9 +41,9 @@
                 padding: 0;
             }
         }
-        .container__marcas {
+        .container__informacion {
+            background-color: black;
             h2 {
-                background-color: black;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 padding: 5px;
                 text-align: center;
@@ -51,6 +51,29 @@
             }
             img {
                 height: 195px;
+            }
+            .txt__info {
+                h3 {
+                    text-align: center;
+                    color: white;
+                }
+                .container__button {
+                    background-image: url("../../img/wallpaper1.jpg");
+                    background-size: 100% 100%;
+                    background-position: center;
+                    height: 250px;
+                    display: flex;
+                    justify-content: center;
+                    button {
+                        padding: 10px;
+                        border-radius: 25px;
+                        background-color: rgb(255, 254, 254);
+                        align-self: center;
+                        color: rgb(0, 0, 0);
+                        font-size: 25px;
+                        border-color: rgb(0, 0, 0);
+                    }
+                }
             }
         }
     }
