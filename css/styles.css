@@ -180,6 +180,41 @@ body {
     height: 160px;
   }
 }
+@media (min-width: 1px) and (max-width: 480px) {
+  .container__footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  .container__footer .navbar__footer {
+    padding: 15px;
+  }
+  .container__footer .navbar__footer .navbar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  .container__footer .navbar__footer .navbar__list a {
+    color: white;
+    font-size: 20px;
+  }
+  .container__footer .footer__logo {
+    text-align: center;
+  }
+  .container__footer .footer__logo img {
+    height: 230px;
+  }
+  div {
+    padding: 10px;
+    background-color: black;
+  }
+  div h4 {
+    text-align: center;
+    color: white;
+  }
+}
 @media (min-width: 1200px) {
   main .banner {
     text-align: center;
