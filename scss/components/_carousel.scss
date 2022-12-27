@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 770px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+    .container__carousel {
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
