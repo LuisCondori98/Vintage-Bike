@@ -290,6 +290,9 @@ body {
     font-size: 25px;
     border-color: rgb(0, 0, 0);
   }
+  main .container__informacion .txt__info .container__button button a {
+    color: black;
+  }
 }
 @media (max-width: 480px) {
   main {
