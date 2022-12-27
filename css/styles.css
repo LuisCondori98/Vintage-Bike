@@ -17,7 +17,26 @@ body {
   background-color: rgb(44, 43, 43);
 }
 
+@media (min-width: 1200px) {
+  .container__carousel {
+    padding: 100px;
+  }
+  .container__carousel .carousel-indicators {
+    gap: 15px;
+  }
+  .container__carousel .carousel-indicators button {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+  }
+  .container__carousel .carousel-inner .carousel-item img {
+    height: 650px;
+  }
+}
 @media (min-width: 1px) and (max-width: 480px) {
+  .container__carousel .carousel-indicators button {
+    display: none;
+  }
   .container__carousel .carousel-inner .carousel-item img {
     height: 350px;
   }

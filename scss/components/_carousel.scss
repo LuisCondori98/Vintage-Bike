@@ -1,5 +1,22 @@
 @media (min-width: 1200px) {
-
+    .container__carousel {
+        padding: 100px;
+        .carousel-indicators {
+            gap: 15px;
+            button {
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    height: 650px;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 770px) and (max-width: 1199px) {
@@ -12,6 +29,11 @@
 
 @media (min-width: 1px) and (max-width: 480px) {
     .container__carousel {
+        .carousel-indicators {
+            button {
+                display: none;
+            }
+        }
         .carousel-inner {
             .carousel-item {
                 img {
