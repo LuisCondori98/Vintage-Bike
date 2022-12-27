@@ -41,5 +41,17 @@
                 padding: 0;
             }
         }
+        .container__marcas {
+            h2 {
+                background-color: black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 5px;
+                text-align: center;
+                color: white;
+            }
+            img {
+                height: 195px;
+            }
+        }
     }
 }

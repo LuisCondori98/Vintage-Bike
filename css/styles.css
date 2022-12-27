@@ -257,6 +257,16 @@ body {
     font-size: 20px;
     padding: 0;
   }
+  main .container__marcas h2 {
+    background-color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+  main .container__marcas img {
+    height: 195px;
+  }
 }
 @media (max-width: 480px) {
   main .banner {
