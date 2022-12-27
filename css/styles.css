@@ -206,6 +206,13 @@ body {
   .container__footer .footer__logo img {
     height: 230px;
   }
+  .container__footer .container__redes {
+    padding: 15px;
+    text-align: center;
+  }
+  .container__footer .container__redes h2 {
+    color: white;
+  }
   .copyright {
     padding: 10px;
     background-color: black;
