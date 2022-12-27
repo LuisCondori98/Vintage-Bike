@@ -206,11 +206,11 @@ body {
   .container__footer .footer__logo img {
     height: 230px;
   }
-  div {
+  .copyright {
     padding: 10px;
     background-color: black;
   }
-  div h4 {
+  .copyright h4 {
     text-align: center;
     color: white;
   }
