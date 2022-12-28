@@ -26,11 +26,13 @@ body {
   }
   .container__carousel .carousel-indicators button {
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
   }
   .container__carousel .carousel-inner .carousel-item img {
-    height: 650px;
+    margin: auto;
+    width: 50%;
+    height: 600px;
   }
 }
 @media (min-width: 1px) and (max-width: 480px) {
@@ -47,6 +49,7 @@ body {
   }
   .navbar a {
     color: white;
+    border-radius: 50px;
   }
   .navbar a:hover {
     background-color: white;
@@ -180,6 +183,45 @@ body {
     height: 160px;
   }
 }
+@media (min-width: 1200px) {
+  .container__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container__footer .navbar__footer .navbar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 340px;
+  }
+  .container__footer .navbar__footer .navbar__list a {
+    color: white;
+  }
+  .container__footer .footer__logo {
+    text-align: center;
+  }
+  .container__footer .footer__logo img {
+    height: 230px;
+  }
+  .container__footer .container__redes {
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+  }
+  .container__footer .container__redes h2 {
+    font-size: 25px;
+    color: white;
+  }
+  .copyright {
+    padding: 10px;
+    background-color: black;
+  }
+  .copyright h4 {
+    text-align: center;
+    color: white;
+  }
+}
 @media (min-width: 1px) and (max-width: 480px) {
   .container__footer {
     display: flex;
@@ -294,6 +336,49 @@ body {
     color: black;
   }
 }
+@media (min-width: 1200px) {
+  main {
+    background-color: white;
+  }
+  main .banner {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(173, 29, 29);
+    color: white;
+  }
+  main .banner h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  main .container__productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 30px;
+    margin: 25px;
+  }
+  main .container__productos .item__producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 15px 3px #000000;
+  }
+  main .container__productos .item__producto img {
+    height: 220px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  main .container__productos .item__producto img:hover {
+    transform: scale(2);
+  }
+  main .container__productos .item__producto h2 {
+    font-size: 20px;
+  }
+  main .container__productos .item__producto h3 {
+    margin-top: 50px;
+    font-size: 17px;
+  }
+}
 @media (max-width: 480px) {
   main {
     background-color: white;
@@ -312,6 +397,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
   }
   main .container__productos .item__producto {
     display: flex;
@@ -319,9 +405,10 @@ body {
     align-items: center;
     text-align: center;
     padding: 10px;
+    box-shadow: 1px 1px 5px 1px #000000;
   }
   main .container__productos .item__producto img {
-    height: 130px;
+    height: 120px;
   }
   main .container__productos .item__producto h2 {
     font-size: 20px;

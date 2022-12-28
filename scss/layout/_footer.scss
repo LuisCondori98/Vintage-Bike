@@ -1,3 +1,45 @@
+@media (min-width: 1200px) {
+    .container__footer {
+        display: flex;
+        justify-content: space-between;
+        .navbar__footer {
+            .navbar__list {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+                width: 340px;
+                a {
+                    color: white;
+                }
+            }
+        }
+        .footer__logo {
+            text-align: center;
+            img {
+                height: 230px;
+            }
+        }
+        .container__redes {
+            padding: 15px;
+            text-align: center;
+            align-self: center;
+            h2 {
+                font-size: 25px;
+                color: white;
+            }
+        }
+    }
+    .copyright {
+        padding: 10px;
+        background-color: black;
+        h4 {
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
 @media (min-width: 1px) and (max-width: 480px) {
     .container__footer {
         display: flex;
