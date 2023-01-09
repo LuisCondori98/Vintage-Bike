@@ -1,6 +1,19 @@
 @media (min-width: 1200px) {
     .container__carousel {
-        padding: 100px;
+        margin: auto;
+        width: 80%;
+        .carousel-control-prev-icon {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            margin-right: 140px;
+        }
+        .carousel-control-next-icon {
+            background-color: black;
+            height: 50px;
+            width: 50px;
+            margin-left: 140px;
+        }
         .carousel-indicators {
             gap: 15px;
             button {
@@ -39,7 +52,7 @@
         .carousel-inner {
             .carousel-item {
                 img {
-                    height: 350px;
+                    height: 230px;
                 }
             }
         }

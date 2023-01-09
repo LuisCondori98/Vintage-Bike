@@ -11,6 +11,9 @@
                 width: 340px;
                 a {
                     color: white;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -31,9 +34,9 @@
         }
     }
     .copyright {
-        padding: 10px;
         background-color: black;
         h4 {
+            font-size: 18px;
             text-align: center;
             color: white;
         }
@@ -77,6 +80,7 @@
         padding: 10px;
         background-color: black;
         h4 {
+            font-size: 18px;
             text-align: center;
             color: white;
         }
