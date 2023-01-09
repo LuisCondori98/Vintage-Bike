@@ -1,88 +1,92 @@
 @media (min-width: 1200px) {
-    .container__footer {
-        display: flex;
-        justify-content: space-between;
-        .navbar__footer {
-            .navbar__list {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-                padding: 20px;
-                width: 340px;
-                a {
-                    color: white;
-                    &:hover {
-                        text-decoration: underline;
+    footer {
+        background-image: radial-gradient(circle, #4f4f4f, #3c3c3c, #292929, #181818, #000000);
+        .container__footer {
+            display: flex;
+            justify-content: space-between;
+            .navbar__footer {
+                .navbar__list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 20px;
+                    width: 340px;
+                    a {
+                        color: white;
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
-        }
-        .footer__logo {
-            text-align: center;
-            img {
-                height: 230px;
-            }
-        }
-        .container__redes {
-            padding: 15px;
-            text-align: center;
-            align-self: center;
-            h2 {
-                font-size: 25px;
-                color: white;
-            }
-        }
-    }
-    .copyright {
-        background-color: black;
-        h4 {
-            font-size: 18px;
-            text-align: center;
-            color: white;
-        }
-    }
-}
-
-@media (min-width: 1px) and (max-width: 480px) {
-    .container__footer {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        .navbar__footer {
-            padding: 15px;
-            .navbar__list {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
+            .footer__logo {
                 text-align: center;
-                padding: 5px;
-                a {
+                img {
+                    height: 230px;
+                }
+            }
+            .container__redes {
+                padding: 15px;
+                text-align: center;
+                align-self: center;
+                h2 {
+                    font-size: 25px;
                     color: white;
-                    font-size: 20px;
                 }
             }
         }
-        .footer__logo {
-            text-align: center;
-            img {
-                height: 230px;
+        .copyright {
+            h4 {
+                font-size: 18px;
+                text-align: center;
+                color: white;
+                margin-bottom: 0;
             }
         }
-        .container__redes {
-            padding: 15px;
-            text-align: center;
-            h2 {
+    } 
+}
+
+@media (min-width: 1px) and (max-width: 480px) {
+    footer {
+        background-image: linear-gradient(to top, #4f4f4f, #3c3c3c, #292929, #181818, #000000);
+        .container__footer {
+            display: flex;
+            flex-direction: column;
+            .navbar__footer {
+                padding: 15px;
+                .navbar__list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    text-align: center;
+                    padding: 5px;
+                    a {
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .footer__logo {
+                text-align: center;
+                img {
+                    height: 230px;
+                }
+            }
+            .container__redes {
+                padding: 15px;
+                text-align: center;
+                h2 {
+                    color: white;
+                }
+            }
+        }
+        .copyright {
+            padding: 10px;
+            h4 {
+                font-size: 18px;
+                text-align: center;
                 color: white;
             }
-        }
-    }
-    .copyright {
-        padding: 10px;
-        background-color: black;
-        h4 {
-            font-size: 18px;
-            text-align: center;
-            color: white;
         }
     }
 }

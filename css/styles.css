@@ -207,85 +207,87 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  .container__footer {
+  footer {
+    background-image: radial-gradient(circle, #4f4f4f, #3c3c3c, #292929, #181818, #000000);
+  }
+  footer .container__footer {
     display: flex;
     justify-content: space-between;
   }
-  .container__footer .navbar__footer .navbar__list {
+  footer .container__footer .navbar__footer .navbar__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
     width: 340px;
   }
-  .container__footer .navbar__footer .navbar__list a {
+  footer .container__footer .navbar__footer .navbar__list a {
     color: white;
   }
-  .container__footer .navbar__footer .navbar__list a:hover {
+  footer .container__footer .navbar__footer .navbar__list a:hover {
     text-decoration: underline;
   }
-  .container__footer .footer__logo {
+  footer .container__footer .footer__logo {
     text-align: center;
   }
-  .container__footer .footer__logo img {
+  footer .container__footer .footer__logo img {
     height: 230px;
   }
-  .container__footer .container__redes {
+  footer .container__footer .container__redes {
     padding: 15px;
     text-align: center;
     align-self: center;
   }
-  .container__footer .container__redes h2 {
+  footer .container__footer .container__redes h2 {
     font-size: 25px;
     color: white;
   }
-  .copyright {
-    background-color: black;
-  }
-  .copyright h4 {
+  footer .copyright h4 {
     font-size: 18px;
     text-align: center;
     color: white;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 1px) and (max-width: 480px) {
-  .container__footer {
+  footer {
+    background-image: linear-gradient(to top, #4f4f4f, #3c3c3c, #292929, #181818, #000000);
+  }
+  footer .container__footer {
     display: flex;
     flex-direction: column;
-    background-color: black;
   }
-  .container__footer .navbar__footer {
+  footer .container__footer .navbar__footer {
     padding: 15px;
   }
-  .container__footer .navbar__footer .navbar__list {
+  footer .container__footer .navbar__footer .navbar__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
     padding: 5px;
   }
-  .container__footer .navbar__footer .navbar__list a {
+  footer .container__footer .navbar__footer .navbar__list a {
     color: white;
     font-size: 20px;
   }
-  .container__footer .footer__logo {
+  footer .container__footer .footer__logo {
     text-align: center;
   }
-  .container__footer .footer__logo img {
+  footer .container__footer .footer__logo img {
     height: 230px;
   }
-  .container__footer .container__redes {
+  footer .container__footer .container__redes {
     padding: 15px;
     text-align: center;
   }
-  .container__footer .container__redes h2 {
+  footer .container__footer .container__redes h2 {
     color: white;
   }
-  .copyright {
+  footer .copyright {
     padding: 10px;
-    background-color: black;
   }
-  .copyright h4 {
+  footer .copyright h4 {
     font-size: 18px;
     text-align: center;
     color: white;
