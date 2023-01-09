@@ -35,9 +35,19 @@
                 }
             }
         }
+
+        .ubicacion {
+            padding: 30px;
+            iframe {
+                height: 300px;
+                width: 100%;
+            }
+        }
+
         .copyright {
+            padding: 10px;
             h4 {
-                font-size: 18px;
+                font-size: 15px;
                 text-align: center;
                 color: white;
                 margin-bottom: 0;
@@ -80,6 +90,15 @@
                 }
             }
         }
+
+        .ubicacion {
+            iframe {
+                padding: 10px;
+                height: 220px;
+                width: 100%;
+            }
+        }
+
         .copyright {
             padding: 10px;
             h4 {

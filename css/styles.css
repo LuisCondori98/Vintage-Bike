@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -243,8 +244,18 @@ body {
     font-size: 25px;
     color: white;
   }
+  footer .ubicacion {
+    padding: 30px;
+  }
+  footer .ubicacion iframe {
+    height: 300px;
+    width: 100%;
+  }
+  footer .copyright {
+    padding: 10px;
+  }
   footer .copyright h4 {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     color: white;
     margin-bottom: 0;
@@ -284,6 +295,11 @@ body {
   }
   footer .container__footer .container__redes h2 {
     color: white;
+  }
+  footer .ubicacion iframe {
+    padding: 10px;
+    height: 220px;
+    width: 100%;
   }
   footer .copyright {
     padding: 10px;
@@ -405,6 +421,9 @@ body {
   }
   main .container__informacion img {
     height: 185px;
+  }
+  main .container__informacion .señales {
+    height: 222px;
   }
   main .container__informacion .txt__info h3 {
     text-align: center;
