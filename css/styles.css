@@ -138,7 +138,9 @@ body {
     color: rgb(255, 255, 255);
   }
   .navbar .active {
+    margin: auto;
     background-color: white;
+    width: 100px;
   }
   .navbar .navbar-nav {
     text-align: center;
