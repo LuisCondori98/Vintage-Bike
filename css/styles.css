@@ -527,9 +527,11 @@ body {
   main .buscador {
     text-align: center;
     padding: 10px;
+    background-color: #000000;
   }
   main .buscador label {
     font-weight: 700;
+    color: white;
   }
   main .buscador input {
     padding: 5px;
